@@ -22,6 +22,7 @@ button {
 }
 
 /* Contacto */
+<<<<<<< HEAD
 
 #bg-contactos {
     position: relative;
@@ -95,7 +96,74 @@ footer p {
 
 /* MQ */
 
-@media (max-width: 767px) 
+#bg-contactos {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #ffc107;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+}
+
+#titulo-formulario {
+    color: #ffc107;
+}
+
+footer {
+    background: #ffc107 min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1 fr;
+    grid-template-rows: 5, 1fr;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#TitCarta {
+    display: flex;
+   justify-content: space-around;
+}
+
+@media (max-width: 767px) {
     .row {
       flex-direction: column;
     }
+  }
